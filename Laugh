@@ -1,0 +1,12 @@
+//Javascript (Laughing It Off)
+//Practicing some functions
+
+function laugh(num) {
+    var message = "";
+    for (i = 0; i < num; i++) {
+        message += "ha";
+    }
+    return message + "!";
+}
+
+console.log(laugh(7));
